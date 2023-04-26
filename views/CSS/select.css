@@ -1,0 +1,29 @@
+/*les filtres des graphes*/
+
+
+
+
+
+
+.axe-x-container,.colonne-container,.filtre-lieu-container,.filtre-annee-container{
+    display:flex;
+    flex-direction: column;
+
+}
+
+
+
+/*style des filtres*/ 
+.axe-x-container>select,.colonne-container>select,.filtre-lieu-container>select,.filtre-annee-container>select{
+    height: 25px;
+    border-radius:20px;
+    background-color: var(--header-title-border-hover);
+}
+
+
+select:hover{
+    cursor:pointer
+}
+
+
+
